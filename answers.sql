@@ -10,3 +10,12 @@ FROM ProductDetail
 
 WHERE 
 n <= 1 + LENGTH (Products) - LENGTH(REPLACE (Products, ',', ''));
+
+/*Question 2*/
+INSERT INTO OrderItems VALUES
+(101, 'Laptop', 2),
+(101, 'Mouse', 1),
+(102, 'Tablet', 3),
+(102, 'Keyboard', 1),
+(102, 'Mouse', 2),
+(103, 'Phone', 1);
